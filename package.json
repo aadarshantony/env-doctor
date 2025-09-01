@@ -1,6 +1,6 @@
 {
   "name": "envdoc",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Env Doctor: Diagnose, validate, and audit your .env files and environment variables in seconds.",
   "main": "index.js",
   "bin": {
