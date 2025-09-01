@@ -1,0 +1,39 @@
+{
+  "name": "env-doctor",
+  "version": "1.0.0",
+  "description": "Diagnose, validate, and audit your .env files and environment variables in seconds.",
+  "main": "index.js",
+  "bin": {
+    "env-doctor": "./bin/cli.js"
+  },
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["dotenv", "env", "environment", "variables", "diagnose", "audit", "validation", "cli"],
+  "author": "Adarsh Antony",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/aadarshantony/env-doctor.git"
+  },
+  "bugs": {
+    "url": "https://github.com/aadarshantony/env-doctor/issues"
+  },
+  "homepage": "https://envdoctor.netlify.app",
+  "files": [
+    "bin",
+    "src",
+    "logo.png",
+    "README.md",
+    "package.json"
+  ],
+  "dependencies": {
+    "@babel/parser": "^7.28.3",
+    "@babel/types": "^7.28.2",
+    "chalk": "^5.6.0",
+    "commander": "^14.0.0",
+    "dotenv": "^17.2.1",
+    "ora": "^8.2.0"
+  }
+}
