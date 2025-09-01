@@ -28,7 +28,7 @@
 ## Installation
 
 ```bash
-npm install -g env-doctor
+npm install -g envdoc
 ```
 
 ---
@@ -38,7 +38,7 @@ npm install -g env-doctor
 Run inside any project:
 
 ```bash
-env-doctor diagnose
+envdoc diagnose
 ```
 
 That’s it — Env Doctor will automatically:
@@ -81,7 +81,7 @@ console.log(process.env.DATABASE_URL);
 Run:
 
 ```bash
-env-doctor diagnose
+envdoc diagnose
 ```
 
 Output:
@@ -104,7 +104,7 @@ WARNING: Unused keys in .env file(s): [ 'DEBUG_MODE' ]
 
 | Command               | Description                                          |
 | --------------------- | ---------------------------------------------------- |
-| `env-doctor diagnose` | Scan your project and report missing/unused env keys |
+| `envdoc diagnose` | Scan your project and report missing/unused env keys |
 more commands coming soon
 
 ---

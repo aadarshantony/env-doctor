@@ -1,10 +1,10 @@
 {
   "name": "envdoc",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Env Doctor: Diagnose, validate, and audit your .env files and environment variables in seconds.",
   "main": "index.js",
   "bin": {
-    "env-doctor": "./bin/cli.js"
+    "envdoc": "./bin/cli.js"
   },
   "type": "module",
   "scripts": {

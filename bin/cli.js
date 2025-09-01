@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 import { program } from "commander";
 import { diagnose } from "../src/diagnose.js";
 import chalk from "chalk";
