@@ -1,4 +1,7 @@
-![Env Doctor Logo](logo.png)
+<p align="center">
+  <img src="logo.png" alt="Env Doctor Logo" width="150">
+</p>
+
 
 # Env Doctor
 
