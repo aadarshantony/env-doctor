@@ -11,21 +11,21 @@
 
 ---
 
-## 🚀 Features
+## Features
 
-* 🔍 Recursively finds **all `.env` files** in your project
-* 📂 Scans source files (`.js`, `.ts`, `.jsx`, `.tsx`, `.mjs`, `.cjs`)
-* 🧠 Detects environment usage via:
+* Recursively finds **all `.env` files** in your project
+* Scans source files (`.js`, `.ts`, `.jsx`, `.tsx`, `.mjs`, `.cjs`)
+* Detects environment usage via:
 
   * `process.env.KEY` / `process.env["KEY"]`
   * `import.meta.env.KEY`
   * `$env/static/*` or `astro:env/*` imports
-* ⚠ Reports **missing** and **unused** keys
-* 🎨 Pretty output with spinners and colors
+* Reports **missing** and **unused** keys
+* Pretty output with spinners and colors
 
 ---
 
-## 📦 Installation
+## Installation
 
 ```bash
 npm install -g env-doctor
@@ -33,7 +33,7 @@ npm install -g env-doctor
 
 ---
 
-## ⚡ Usage
+## Usage
 
 Run inside any project:
 
@@ -50,7 +50,7 @@ That’s it — Env Doctor will automatically:
 
 ---
 
-## 📖 Example
+## Example
 
 Project structure:
 
@@ -109,7 +109,7 @@ more commands coming soon
 
 ---
 
-## 🤝 Contributing
+## Contributing
 
 1. Fork the repo
 2. Create a branch (`git checkout -b feature/my-feature`)
@@ -119,6 +119,6 @@ more commands coming soon
 
 ---
 
-## 📜 License
+## License
 
 MIT License © 2025 [Adarsh Antony](https://github.com/aadarshantony)
